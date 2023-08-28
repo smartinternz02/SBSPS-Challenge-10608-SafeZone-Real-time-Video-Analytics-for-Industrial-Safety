@@ -92,7 +92,7 @@ SafeZone is an innovative real-time video analytics web application developed to
    - Course 2: [Getting Started with Enterprise-grade AI](https://www.credly.com/badges/4df2d1a7-df81-4976-960f-5f2d8bbb715d/public_url)
 
 3. Aryan Sharma
-   - Course 1: [Journey to Cloud: Envisioning Your Solution](https://www.credly.com/badges/4a09ba7a-d569-45f2-83f9-839d503df0b3/public_url)
-   - Course 2: [Getting Started with Enterprise-grade AI](https://www.credly.com/badges/4df2d1a7-df81-4976-960f-5f2d8bbb715d/public_url)
+   - Course 1: [Journey to Cloud: Envisioning Your Solution](https://www.credly.com/badges/981cd3c6-02d4-4a2b-a13b-b2e83a42f7f3/public_url)
+   - Course 2: [Getting Started with Enterprise-grade AI](https://www.credly.com/badges/5c17f750-2520-4378-9a3a-0ed01d8edda5/public_url)
 
 
