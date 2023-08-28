@@ -73,6 +73,10 @@ SafeZone is an innovative real-time video analytics web application developed to
 
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/1cc0e0a3-ed3e-4001-aa0a-00c9a7c4cbba)
 
+**7) User Chatting with IBM Watson Chatbot**
+
+![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/81411385-72f7-494d-ade6-243184f5dc82)
+
 ## Team Members
 
 1. Suryansh Sharma
