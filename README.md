@@ -57,27 +57,44 @@ SafeZone is an innovative real-time video analytics web application developed to
 **1) User Uploaded Video And Frame are Been Analysed**
 
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/85fbd27d-1770-47ee-b2bd-eab195ca64e2)
+
 **2) Web Page Pop Warning Message And User Can Download The Video And Video Contain Only Those Frame Where Detection Occured**
 
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/90c556b4-a10d-49ba-aba9-e3a16b2f5b9e)
+
 **3) User Is Alerted Via Gmail And Message Contain Attachment Video Of Detected Hazards**
 
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/586308df-af6b-4a0a-9d24-8e69e72211b5)
+
 **4) If User Upload Image In Web Page And Image Contain Any Potential Issue The Alert Is Send To User With Attached Detected Image And Bounding Box Is Drawn On Image**
 
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/47d55161-8e6b-4e6d-a0eb-fcf72b67fd6b)
+
 **5) User Uploading Image**
 
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/0d299804-6525-472c-8357-26b46e540956)
+
 **6) No Issue Detected As Uploaded Image Does Contain Any Harmful Object**
 
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/1cc0e0a3-ed3e-4001-aa0a-00c9a7c4cbba)
 
-**7) User Chatting with IBM Watson Chatbot**
+**7) User Writing Comment**
+
+![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/4035683d-6ac7-462f-a642-bacfd32ce142) 
+
+**8) Comment Received Popup**
+
+![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/8c75a8d9-c29f-4b4c-84e2-a33a71ab32a1)
+
+**9) Admin Side View Of Message Received**
+
+![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/35a32916-936a-41e2-9124-5bfa657a3120)
+
+**10) User Chatting with IBM Watson Chatbot**
 
 ![image](https://github.com/smartinternz02/SBSPS-Challenge-10608-SafeZone-Real-time-Video-Analytics-for-Industrial-Safety/assets/76390896/81411385-72f7-494d-ade6-243184f5dc82)
 
-## Team Members
+## Team Badges Public URL's
 
 1. Suryansh Sharma
    - Course 1: [Journey to Cloud: Envisioning Your Solution](https://www.credly.com/badges/091a5170-2e31-499c-9e44-d8eaa8f4da09/public_url)
