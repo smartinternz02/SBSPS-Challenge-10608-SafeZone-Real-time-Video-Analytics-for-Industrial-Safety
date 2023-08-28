@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>{% block title %}{%endblock%}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="{{url_for('static',filename='images/safezone_icon.jpg')}}" alt="" width="30" height="24"
+          class="d-inline-block align-text-top rounded-circle">
+        Safezone
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Home-Main">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Try-Us-Main">Try-Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Creator-Main">Creators</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact-Us-Main">Contact-Us</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  {% block content %}{%endblock%}
+
+  <footer class="fixed-bottom bg-dark">
+
+    <img src="{{url_for('static',filename='images/safezone_icon.jpg')}}" class="rounded-circle mx-auto d-block mt-2"
+      height="30" width="30">
+
+
+    <p class="container-fluid text-center text-light m-1 py-1">© 2023 Safezone</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "32dda3b8-fd1a-45aa-95a6-f04e7a4d4ac2", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "1617347c-6d41-4512-908c-8f9d5a0fd8b0", // The ID of your service instance.
+    onLoad: function (instance) { instance.render(); }
+  };
+  setTimeout(function () {
+    const t = document.createElement('script');
+    t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script> var typed = new Typed(".typing", {
+    strings: ["Real Time Analytics", "Hazard Detection", "....Many More"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true,
+  });
+  var loader = document.querySelector(".loader_submit")
+  loader.addEventListener("click", function () {
+    setTimeout(() => {
+
+      loader.innerHTML = "<button class='btn btn-primary my-3 mx-1' type='button' disabled> <span class='spinner-border spinner-border-sm ' aria-hidden='true'></span> <span role='status'>Analysing..</span> </button>"
+    }, 1000);
+
+
+  })
+
+</script>
+
+</html>
