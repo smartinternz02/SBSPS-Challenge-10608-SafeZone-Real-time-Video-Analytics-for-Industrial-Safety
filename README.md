@@ -20,6 +20,9 @@ SafeZone is an innovative real-time video analytics web application developed to
 1. Run the application: `python app.py`
 2. Access the application via your web browser at `http://localhost:5000`
 
+## Dataset
+https://universe.roboflow.com/explore-mtqut/safezone
+
 ## Screenshots
 **1) Home Page**
 
